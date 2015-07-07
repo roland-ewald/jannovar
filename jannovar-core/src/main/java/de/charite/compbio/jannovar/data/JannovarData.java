@@ -32,7 +32,7 @@ public final class JannovarData implements Serializable {
 	/** map from transcript accession to {@link TranscriptModel} instance. */
 	private final ImmutableMap<String, TranscriptModel> tmByAccession;
 
-	/** map from transcript accession to {@link TranscriptModel} instance. */
+	/** map from gene symbol to {@link TranscriptModel} instance. */
 	private final ImmutableMultimap<String, TranscriptModel> tmByGeneSymbol;
 
 	/** information about reference lengths and identities */
@@ -44,7 +44,8 @@ public final class JannovarData implements Serializable {
 	 * @param refDict
 	 *            the {@link ReferenceDictionary} to use in this object
 	 * @param transcriptInfos
-	 *            the list of {@link TranscriptInfo} objects to use in this object
+	 *            the list of {@link TranscriptModel} objects to use in this
+	 *            object
 	 */
 	public JannovarData(ReferenceDictionary refDict, ImmutableList<TranscriptModel> transcriptInfos) {
 		this.refDict = refDict;

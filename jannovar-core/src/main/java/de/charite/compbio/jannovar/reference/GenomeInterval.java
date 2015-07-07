@@ -9,7 +9,7 @@ import de.charite.compbio.jannovar.impl.util.StringUtil;
 /**
  * Representation of a genomic interval (chromsome, begin, end).
  *
- * Internally, positions are always stored zero-based, but the position type can be explicitely given to the constructor
+ * Internally, positions are always stored zero-based, but the position type can be explicitly given to the constructor
  * of {@link GenomeInterval}.
  *
  * @author Manuel Holtgrewe <manuel.holtgrewe@charite.de>

@@ -24,7 +24,7 @@ import de.charite.compbio.jannovar.Immutable;
  * <ol>
  * <li>Assign numeric identifiers to the chromosome names through {@link #contigID}. Possibly, more than one name is
  * assigned the same numeric id. Usually, numeric ids are assigned starting with 1 (as to correspond to the chromosome
- * names for human/mouse genomes, for example), but arbitrary numeric ids can be assigned (even non-continous sequence).
+ * names for human/mouse genomes, for example), but arbitrary numeric ids can be assigned (even non-continuous sequence).
  * </li>
  * <li>Assign a primary name to each numeric identifier through {@link #contigName}.</li>
  * <li>Assign a length to each contig through {@link #contigLength}. This is used for coordinate transformation from

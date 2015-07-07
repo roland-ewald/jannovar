@@ -16,7 +16,7 @@ public class Interval<T> implements java.io.Serializable, Comparable<Interval<T>
 	/** the value stored for the Interval */
 	private final T value;
 
-	/** the maximum of this nodes {@link #end} and both of it children's {@link #end} */
+	/** the maximum of this node's {@link #end} and both of it children's {@link #end} */
 	private final int maxEnd;
 
 	/** version number for serializing an Interval */

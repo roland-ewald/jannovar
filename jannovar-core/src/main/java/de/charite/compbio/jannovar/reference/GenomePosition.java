@@ -11,7 +11,7 @@ import de.charite.compbio.jannovar.impl.util.StringUtil;
 /**
  * Representation of a position on a genome (chromosome, position).
  *
- * Internally, positions are always stored zero-based, but the position type can be explicitely given to the constructor
+ * Internally, positions are always stored zero-based, but the position type can be explicitly given to the constructor
  * of {@link GenomePosition}.
  *
  * In the case of one-based position, {@link #pos} points to the {@link #pos}-th base in string from the left when

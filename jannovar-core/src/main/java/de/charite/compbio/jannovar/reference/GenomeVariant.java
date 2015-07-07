@@ -13,7 +13,7 @@ import de.charite.compbio.jannovar.impl.util.DNAUtils;
 /**
  * Denote a change with a "REF" and an "ALT" string using genome coordinates.
  *
- * GenomeChange objects are immutable, the members are automatically adjusted
+ * GenomeVariant objects are immutable, the members are automatically adjusted
  * for the longest common suffix and prefix in REF and ALT.
  *
  * Symbolic alleles, as in the VCF standard, are also possible, but methods like
